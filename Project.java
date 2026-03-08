@@ -92,7 +92,7 @@ public class Project {
 		  } else {
 
 		   connection.rollback(s);
-		   String q4 = "select * from account where acc_no= ? ";
+		   String q4 = "select * from emloyees where acc_no= ? ";
 
 		   PreparedStatement statement4 = connection.prepareStatement(q4);
 
@@ -108,5 +108,6 @@ public class Project {
 
 		 }
 		}
+
 
 
